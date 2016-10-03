@@ -17,6 +17,10 @@ public class MyKara extends Kara
      */
     public void act() 
     {
-        
+        move();
+        move();
+        if(onLeaf()) Greenfoot.stop(); 
+        else putLeaf();
+      
     }  
 }
